@@ -29,6 +29,11 @@
 		</dependency>
 	</dependencies>
 
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/Lasso_and_Blow_Tool/</url>
+	</ciManagement>
+
 	<scm>
 		<connection>scm:git:git://github.com/fiji/Lasso_and_Blow_Tool</connection>
 		<developerConnection>scm:git:git@github.com:fiji/Lasso_and_Blow_Tool</developerConnection>
