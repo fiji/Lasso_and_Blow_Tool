@@ -1,19 +1,15 @@
 package plugin;
 
 import ij.ImagePlus;
-
 import ij.gui.GenericDialog;
 import ij.gui.PolygonRoi;
 import ij.gui.Roi;
 import ij.gui.ShapeRoi;
-
 import ij.plugin.filter.ThresholdToSelection;
-
 import ij.process.ByteProcessor;
 import ij.process.ColorProcessor;
 import ij.process.FloatProcessor;
 import ij.process.ImageProcessor;
-
 import util.FibonacciHeapDouble;
 
 public class Lasso {
