@@ -18,6 +18,25 @@
 	<name>plugins/Lasso_and_Blow_Tool.jar</name>
 	<description></description>
 
+	<scm>
+		<connection>scm:git:git://github.com/fiji/Lasso_and_Blow_Tool</connection>
+		<developerConnection>scm:git:git@github.com:fiji/Lasso_and_Blow_Tool</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/fiji/Lasso_and_Blow_Tool</url>
+	</scm>
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/Lasso_and_Blow_Tool/</url>
+	</ciManagement>
+
+	<repositories>
+		<!-- NB: for project parent -->
+		<repository>
+			<id>imagej.public</id>
+			<url>http://maven.imagej.net/content/groups/public</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<!-- Fiji dependencies -->
 		<dependency>
@@ -31,25 +50,5 @@
 			<artifactId>ij</artifactId>
 		</dependency>
 	</dependencies>
-
-	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/Lasso_and_Blow_Tool/</url>
-	</ciManagement>
-
-	<scm>
-		<connection>scm:git:git://github.com/fiji/Lasso_and_Blow_Tool</connection>
-		<developerConnection>scm:git:git@github.com:fiji/Lasso_and_Blow_Tool</developerConnection>
-		<tag>HEAD</tag>
-		<url>https://github.com/fiji/Lasso_and_Blow_Tool</url>
-	</scm>
-
-	<repositories>
-		<!-- NB: for project parent -->
-		<repository>
-			<id>imagej.public</id>
-			<url>http://maven.imagej.net/content/groups/public</url>
-		</repository>
-	</repositories>
 
 </project>
