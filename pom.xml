@@ -71,8 +71,8 @@
 		<url>https://github.com/fiji/Lasso_and_Blow_Tool/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/Lasso_and_Blow_Tool/</url>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/fiji/Lasso_and_Blow_Tool</url>
 	</ciManagement>
 
 	<properties>
