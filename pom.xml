@@ -11,7 +11,7 @@
 
 	<groupId>sc.fiji</groupId>
 	<artifactId>Lasso_and_Blow_Tool</artifactId>
-	<version>2.0.2-SNAPSHOT</version>
+	<version>2.0.2</version>
 
 	<name>Lasso and Blow Tool</name>
 	<description>Lasso and Blow Tool plugin for Fiji.</description>
@@ -63,7 +63,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/fiji/Lasso_and_Blow_Tool</connection>
 		<developerConnection>scm:git:git@github.com:fiji/Lasso_and_Blow_Tool</developerConnection>
-		<tag>HEAD</tag>
+		<tag>Lasso_and_Blow_Tool-2.0.2</tag>
 		<url>https://github.com/fiji/Lasso_and_Blow_Tool</url>
 	</scm>
 	<issueManagement>
