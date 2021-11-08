@@ -61,7 +61,7 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:git://github.com/fiji/Lasso_and_Blow_Tool</connection>
+		<connection>scm:git:https://github.com/fiji/Lasso_and_Blow_Tool</connection>
 		<developerConnection>scm:git:git@github.com:fiji/Lasso_and_Blow_Tool</developerConnection>
 		<tag>HEAD</tag>
 		<url>https://github.com/fiji/Lasso_and_Blow_Tool</url>
